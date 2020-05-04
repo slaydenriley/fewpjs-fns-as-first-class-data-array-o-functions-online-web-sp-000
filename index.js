@@ -22,4 +22,8 @@ function unleashDog(dogName, dogBreed) {
   console.log(`Unleash ${dogName} the ${dogBreed}`);
 }
 
-var routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog]
+var routine = [wakeDog(), leashDog(), walkToPark(), throwFrisbee(), walkHome(), unleashDog()]
+
+function exerciseDog(dogName, dogBreed) {
+  routine.forEach(dogName, dogBreed => console.log(dogName, dogBreed))
+}
