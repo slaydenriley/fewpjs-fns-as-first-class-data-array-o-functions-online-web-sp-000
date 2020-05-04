@@ -22,4 +22,5 @@ function unleashDog(dogName, dogBreed) {
   console.log(`Unleash ${dogName} the ${dogBreed}`);
 }
 
-var routine = []
+var routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog]
+
