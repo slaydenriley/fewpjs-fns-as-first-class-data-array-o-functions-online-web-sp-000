@@ -23,3 +23,5 @@ function unleashDog(dogName, dogBreed) {
 }
 
 var routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog]
+
+
